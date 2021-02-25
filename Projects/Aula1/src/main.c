@@ -1,6 +1,6 @@
 //Rafael Ruvinski Sist.Embarcados s11
 // Prática 1:
-//teste2
+
 #include <stdint.h>
 #include <stdbool.h>
 // includes da biblioteca driverlib

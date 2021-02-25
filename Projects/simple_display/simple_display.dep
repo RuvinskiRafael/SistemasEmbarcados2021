@@ -9,25 +9,25 @@
     <configuration>
         <name>Release</name>
         <outputs>
-            <file>$PROJ_DIR$\src\system_TM4C1294_TW.c</file>
-            <file>$PROJ_DIR$\src\simple_display.c</file>
-            <file>$PROJ_DIR$\Release\Obj\startup_TM4C1294.o</file>
-            <file>$PROJ_DIR$\Release\Exe\simple_display.out</file>
-            <file>$PROJ_DIR$\Release\Obj\system_TM4C1294_TW.xcl</file>
-            <file>$PROJ_DIR$\..\drivers\cfaf128x128x16.c</file>
-            <file>$PROJ_DIR$\Release\Obj\simple_display.o</file>
-            <file>$PROJ_DIR$\Release\Obj\simple_display.xcl</file>
-            <file>$PROJ_DIR$\Release\Obj\cfaf128x128x16.o</file>
             <file>$PROJ_DIR$\Release\Obj\cfaf128x128x16.xcl</file>
+            <file>$PROJ_DIR$\src\system_TM4C1294_TW.c</file>
+            <file>$PROJ_DIR$\Release\Obj\startup_TM4C1294.o</file>
+            <file>$PROJ_DIR$\Release\Obj\cfaf128x128x16.o</file>
+            <file>$PROJ_DIR$\Release\Obj\system_TM4C1294_TW.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\simple_display.o</file>
             <file>$PROJ_DIR$\Release\Obj\system_TM4C1294_TW.o</file>
             <file>$PROJ_DIR$\src\startup_TM4C1294.s</file>
+            <file>$PROJ_DIR$\src\simple_display.c</file>
+            <file>$PROJ_DIR$\Release\Obj\simple_display.xcl</file>
+            <file>$PROJ_DIR$\..\drivers\cfaf128x128x16.c</file>
+            <file>$PROJ_DIR$\Release\Exe\simple_display.out</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 3</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
         </file>
@@ -36,37 +36,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 4</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\simple_display.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
                     <file> 6</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 7</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\cfaf128x128x16.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 8</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 9</file>
+                    <file> 4</file>
                 </tool>
             </outputs>
         </file>
@@ -76,6 +50,32 @@
                 <tool>
                     <name>AARM</name>
                     <file> 2</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\simple_display.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\cfaf128x128x16.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0</file>
                 </tool>
             </outputs>
         </file>
